@@ -619,6 +619,7 @@ int main(int argc, char* argv[])
 {
   logo::Monero::display_logo();
   std::cout << "--------------XMR vanity address generator--------------" << std::endl;
+  std::cout << "Type \"help\" for a list of commands" << std::endl;
 
   bind_commands();
   m_cmd_binder.run_handling(std::string("[VANITY SEARCH]: "), "");

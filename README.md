@@ -26,3 +26,4 @@ See [LICENSE](LICENSE).
 ## Usage
 
 * `vanity_address_generator` opens a command-line interface.
+* `help` within the CLI shows a list of commands with a small description each.
